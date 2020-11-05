@@ -50,7 +50,7 @@ public class Clientes_act extends AppCompatActivity {
 
         int saldo = Integer.parseInt(edit.getText().toString());
         int xtreme = Integer.parseInt(plan.getXtreme());
-        
+
         int mind = Integer.parseInt(plan.getMindfullnes());
         int resultado = saldo - xtreme;
         int resultadoDos = saldo - mind;
